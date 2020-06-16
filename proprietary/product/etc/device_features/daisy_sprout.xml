@@ -3,7 +3,7 @@
     <!--whether the device is pad-->
     <bool name="is_pad">false</bool>
     <!--whether the device is xiaomi-->
-    <bool name="is_xiaomi">false</bool>
+    <bool name="is_xiaomi">true</bool>
     <!--whether the device is hongmi-->
     <bool name="is_hongmi">true</bool>
     <!--whether the device support alpha optimized-->
@@ -103,7 +103,7 @@
     <!--whether support burst shoot in camera-->
     <bool name="support_camera_burst_shoot">true</bool>
     <!--whether support solid recording in camera-->
-    <bool name="support_camera_movie_solid">true</bool>
+    <bool name="support_camera_movie_solid">false</bool>
     <!--whether support shader effect in camera-->
     <bool name="support_camera_shader_effect">true</bool>
     <!--whether support skin beauty in camera-->
@@ -113,7 +113,7 @@
     <!--whether support record location in camera-->
     <bool name="support_camera_record_location">true</bool>
     <!--whether support time watermark in camera-->
-    <bool name="support_camera_water_mark">true</bool>
+    <bool name="support_camera_water_mark">false</bool>
     <!--whether support new style time watermark in camera-->
     <bool name="support_camera_new_style_time_water_mark">true</bool>
     <!--whether support face info watermark in camera-->
@@ -135,13 +135,13 @@
     <!--whether support aohdr in camera-->
     <bool name="support_camera_aohdr">false</bool>
     <!--whether support high frame recording in camera-->
-    <bool name="support_camera_hfr">true</bool>
+    <bool name="support_camera_hfr">false</bool>
     <!--whether support chroma flash in camera-->
     <bool name="support_chroma_flash">false</bool>
     <!--whether support object tracking in camera-->
     <bool name="support_object_track">false</bool>
     <!--whether support 4k recording in camera-->
-    <bool name="support_camera_4k_quality">false</bool>
+    <bool name="support_camera_4k_quality">true</bool>
     <!--whether support audio focus recording in camera-->
     <bool name="support_camera_audio_focus">false</bool>
     <!--whether use morpho lib in camera-->
@@ -149,7 +149,7 @@
     <!--whether replace a lower cost effect to avoid preview lag-->
     <bool name="is_camera_replace_higher_cost_effect">false</bool>
     <!--whether support manual focus/exposure_time in camera-->
-    <bool name="support_camera_manual_function">false</bool>
+    <bool name="support_camera_manual_function">true</bool>
     <!--whether capture when user press down the shutter in camera instead of left the shutter-->
     <bool name="support_camera_press_down_capture">true</bool>
     <!--whether support capture in torch mode in camera-->
@@ -181,7 +181,7 @@
     <!--whether support groupshot mode  in camera-->
     <bool name="support_camera_groupshot">false</bool>
     <!--whether support snap with screen off  in camera-->
-    <bool name="support_camera_quick_snap">false</bool>
+    <bool name="support_camera_quick_snap">true</bool>
     <!--whether compass support tilt rotate calibrate  -->
     <bool name="support_rotate_calibrate">true</bool>
     <!-- whether support double tap to wake up device -->
